@@ -19,8 +19,7 @@ images:
 - 성능도 더 좋고 내부 attn. map 의 feature 들이 공간적 정보를 담고 있다는 것을 보임
 - 이 feature 들로 [[Dense Prediction]] tasks → sem. seg, depth estimation 가능 - [[Semantic Segmentation]], [[Depth Estimation]]
 
-![[스크린샷 2025-01-28 오후 4.12.17.png|400]]
-
+{% include figure.liquid loading="eager" path="/assets/img/스크린샷 2025-01-28 오후 4.12.17.png" class="img-fluid rounded z-depth-1" %}
 
 # Method
 - Key ideas: [[Cross Entropy]], [[Multi Crop Strategy]], [[Momentum Teacher]], [[Centering]], [[Sharpening]]
@@ -47,4 +46,8 @@ $$
 - teacher 학습은 [[EMA]] 로
 - 학습 완료 후:
 	- Teacher model 로 inference.
+
+{% include figure.liquid loading="eager" path="/assets/img/스크린샷 2025-01-28 오후 4.13.13.png" class="img-fluid rounded z-depth-1" %}
+
+
 
