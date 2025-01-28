@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://jay-byte0121.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://Jay-byte0121.github.io/sitemap.xml
